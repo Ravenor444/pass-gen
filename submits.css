@@ -1,0 +1,28 @@
+
+body{
+    background-color: aquamarine;
+    text-align: center;
+    margin: 0;
+}
+.pass{
+    font-weight: bold;
+    font-family: 'Lora', serif;
+    font-size: 20px;
+}
+.top{
+    margin-top: 250px;
+    margin-bottom: 250px;
+}
+.bottom {
+    padding: 50px 0 20px;
+    background-color: lightblue;
+}
+.footer-link {
+    color: #11999E;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+}
+.footer-link:hover{
+    color: white;
+}

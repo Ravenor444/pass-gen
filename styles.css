@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    background-image:url_for('static', filename='css/bg.jpg');
+    text-align: center;
+}
+h1{
+    font-family: 'Sacramento', cursive;
+    font-size: 80px;
+}
+h2{
+    font-family: 'Lora', serif;
+    font-weight: bold;
+}
+.inp-head{
+    font-family: 'Lora', serif;
+}
+.top{
+    background-color: aquamarine;
+    position: relative;
+    padding-top: 150px;
+}
+.toptext{
+    text-align: center;
+    margin-top: 0;
+    padding-bottom: 50px;
+}
+.userinput{
+    text-align: center; 
+    margin: 0 auto; 
+    max-width: 400px;
+}
+.btn{
+    margin-bottom: 30px;
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+.btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+}
+/* imgs */
+.cloud1{
+    position: absolute;
+    left:1000px;
+}
+.cloud1:hover{
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+.cloud2{
+    position: absolute;
+    top:850px;
+    left: 300px;
+}
+.cloud2:hover{
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+.mountain{
+    left: 100px;
+}
+.mountain:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+.inps:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+/* bottom */
+.bottom {
+    padding: 50px 0 20px;
+    background-color: lightblue;
+}
+.footer-link {
+    color: #11999E;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+}
+.footer-link:hover{
+    color: white;
+}

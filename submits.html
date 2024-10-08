@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Successfully Submitted!</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/submits.css') }}">
+    </head>
+    <body>
+        <div class="top">
+        <h2>Generated Password is:</h2>
+        <p class="pass">{{passwords}}</p>
+        <a href="/">Return to Main Page</a>
+        </div>
+        <div class="bottom">
+            <a class="footer-link" href="https://twitter.com/maheshannafan99">Twitter</a>
+            <a class="footer-link" href="tel:+91 7815936904">Mobile</a>
+            <a class="footer-link" href="mailto:praneethbalaji2004@gmail.com">Email</a>
+            <p class="cp">©️ 2023 CPB-TAR @ Strong Password Generator.</p>
+        </div>
+    </body>
+</html>
